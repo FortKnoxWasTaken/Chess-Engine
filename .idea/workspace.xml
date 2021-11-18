@@ -3,14 +3,75 @@
   <component name="ChangeListManager">
     <list default="true" id="21f7191c-aa89-4111-b204-dd2559aa87ba" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Chess-Engine/com/chess/JChess.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Chess-Engine/com/chess/JChess.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Chess-Engine/com/chess/engine/board/BoardUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Chess-Engine/com/chess/engine/board/BoardUtils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Chess-Engine/com/chess/engine/board/Move$AttackMove.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Chess-Engine/com/chess/engine/board/Move$AttackMove.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Chess-Engine/com/chess/engine/board/Move$CastleMove.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Chess-Engine/com/chess/engine/board/Move$CastleMove.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Chess-Engine/com/chess/engine/board/Move$KingSideCastleMove.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Chess-Engine/com/chess/engine/board/Move$KingSideCastleMove.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Chess-Engine/com/chess/engine/board/Move$MajorMove.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Chess-Engine/com/chess/engine/board/Move$MajorMove.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Chess-Engine/com/chess/engine/board/Move$MoveFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Chess-Engine/com/chess/engine/board/Move$MoveFactory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Chess-Engine/com/chess/engine/board/Move$NullMove.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Chess-Engine/com/chess/engine/board/Move$NullMove.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Chess-Engine/com/chess/engine/board/Move$PawnAttackMove.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Chess-Engine/com/chess/engine/board/Move$PawnAttackMove.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Chess-Engine/com/chess/engine/board/Move$PawnEnPassantAttack.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Chess-Engine/com/chess/engine/board/Move$PawnEnPassantAttack.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Chess-Engine/com/chess/engine/board/Move$PawnJump.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Chess-Engine/com/chess/engine/board/Move$PawnJump.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Chess-Engine/com/chess/engine/board/Move$PawnMove.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Chess-Engine/com/chess/engine/board/Move$PawnMove.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Chess-Engine/com/chess/engine/board/Move$QueenSideCastleMove.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Chess-Engine/com/chess/engine/board/Move$QueenSideCastleMove.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Chess-Engine/com/chess/engine/board/Move.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Chess-Engine/com/chess/engine/board/Move.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Chess-Engine/com/chess/engine/pieces/Bishop.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Chess-Engine/com/chess/engine/pieces/Bishop.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Chess-Engine/com/chess/engine/pieces/King.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Chess-Engine/com/chess/engine/pieces/King.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Chess-Engine/com/chess/engine/pieces/Knight.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Chess-Engine/com/chess/engine/pieces/Knight.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Chess-Engine/com/chess/engine/pieces/Pawn.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Chess-Engine/com/chess/engine/pieces/Pawn.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Chess-Engine/com/chess/engine/pieces/Piece$PieceType$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Chess-Engine/com/chess/engine/pieces/Piece$PieceType$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Chess-Engine/com/chess/engine/pieces/Piece$PieceType$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Chess-Engine/com/chess/engine/pieces/Piece$PieceType$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Chess-Engine/com/chess/engine/pieces/Piece$PieceType$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Chess-Engine/com/chess/engine/pieces/Piece$PieceType$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Chess-Engine/com/chess/engine/pieces/Piece$PieceType$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Chess-Engine/com/chess/engine/pieces/Piece$PieceType$4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Chess-Engine/com/chess/engine/pieces/Piece$PieceType$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Chess-Engine/com/chess/engine/pieces/Piece$PieceType$5.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Chess-Engine/com/chess/engine/pieces/Piece$PieceType$6.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Chess-Engine/com/chess/engine/pieces/Piece$PieceType$6.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Chess-Engine/com/chess/engine/pieces/Piece$PieceType.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Chess-Engine/com/chess/engine/pieces/Piece$PieceType.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Chess-Engine/com/chess/engine/pieces/Piece.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Chess-Engine/com/chess/engine/pieces/Piece.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Chess-Engine/com/chess/engine/pieces/Queen.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Chess-Engine/com/chess/engine/pieces/Queen.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Chess-Engine/com/chess/engine/pieces/Rook.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Chess-Engine/com/chess/engine/pieces/Rook.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Chess-Engine/com/chess/engine/player/MoveStatus$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Chess-Engine/com/chess/engine/player/MoveStatus$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Chess-Engine/com/chess/engine/player/MoveStatus$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Chess-Engine/com/chess/engine/player/MoveStatus$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Chess-Engine/com/chess/engine/player/MoveStatus$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Chess-Engine/com/chess/engine/player/MoveStatus$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Chess-Engine/com/chess/engine/player/MoveStatus.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Chess-Engine/com/chess/engine/player/MoveStatus.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Chess-Engine/com/chess/engine/player/MoveTransition.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Chess-Engine/com/chess/engine/player/MoveTransition.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Chess-Engine/com/chess/gui/Table$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Chess-Engine/com/chess/gui/Table$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Chess-Engine/com/chess/gui/Table$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Chess-Engine/com/chess/gui/Table$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Chess-Engine/com/chess/gui/Table$BoardPanel.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Chess-Engine/com/chess/gui/Table$BoardPanel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Chess-Engine/com/chess/gui/Table$TilePanel.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Chess-Engine/com/chess/gui/Table$TilePanel.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Chess-Engine/com/chess/gui/Table.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Chess-Engine/com/chess/gui/Table.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/chess/JChess.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/chess/JChess.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Chess/com/chess/engine/Alliance$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Chess/com/chess/engine/Alliance$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Chess/com/chess/engine/Alliance.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Chess/com/chess/engine/JChess.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Chess/com/chess/engine/board/Board$Builder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Chess/com/chess/engine/board/Board.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Chess/com/chess/engine/board/BoardUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Chess/com/chess/engine/board/Move$AttackMove.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Chess/com/chess/engine/board/Move$MajorMove.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Chess/com/chess/engine/board/Move.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Chess/com/chess/engine/board/Tile$EmptyTile.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Chess/com/chess/engine/board/Tile$OccupiedTile.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Chess/com/chess/engine/board/Tile.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Chess/com/chess/engine/pieces/Bishop.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Chess/com/chess/engine/pieces/King.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Chess/com/chess/engine/pieces/Knight.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Chess/com/chess/engine/pieces/Pawn.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Chess/com/chess/engine/pieces/Piece$PieceType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Chess/com/chess/engine/pieces/Piece.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Chess/com/chess/engine/pieces/Queen.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Chess/com/chess/engine/pieces/Rook.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/chess/engine/board/BoardUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/chess/engine/board/BoardUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/chess/engine/board/Move.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/chess/engine/board/Move.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/chess/engine/pieces/Bishop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/chess/engine/pieces/Bishop.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/chess/engine/pieces/King.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/chess/engine/pieces/King.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/chess/engine/pieces/Knight.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/chess/engine/pieces/Knight.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/chess/engine/pieces/Pawn.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/chess/engine/pieces/Pawn.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/chess/engine/pieces/Piece.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/chess/engine/pieces/Piece.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/chess/engine/pieces/Queen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/chess/engine/pieces/Queen.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/chess/engine/pieces/Rook.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/chess/engine/pieces/Rook.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/chess/engine/player/MoveStatus.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/chess/engine/player/MoveStatus.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/chess/engine/player/MoveTransition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/chess/engine/player/MoveTransition.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/chess/gui/Table.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/chess/gui/Table.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -46,6 +107,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/BlackWidow-Chess-master" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
@@ -92,7 +154,18 @@
       <workItem from="1636357843744" duration="5163000" />
       <workItem from="1636396744040" duration="1982000" />
       <workItem from="1636528432935" duration="3597000" />
-      <workItem from="1636533161256" duration="1809000" />
+      <workItem from="1636533161256" duration="2050000" />
+      <workItem from="1636580654748" duration="2108000" />
+      <workItem from="1636587392655" duration="3742000" />
+      <workItem from="1636592425657" duration="3264000" />
+      <workItem from="1636712666785" duration="2625000" />
+      <workItem from="1636715359075" duration="719000" />
+      <workItem from="1636827955625" duration="2985000" />
+      <workItem from="1636845170341" duration="13434000" />
+      <workItem from="1636917679107" duration="16961000" />
+      <workItem from="1636973687786" duration="1391000" />
+      <workItem from="1637034681265" duration="5713000" />
+      <workItem from="1637134246802" duration="171000" />
     </task>
     <servers />
   </component>
@@ -110,5 +183,15 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.NullPointerException" package="java.lang" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
