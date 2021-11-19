@@ -20,10 +20,14 @@ public class Board {
     private final BlackPlayer blackPlayer;
     private final Player currentPlayer;
 
+    private final Pawn enPassantPawn;
+
     private Board(final Builder builder){
         this.gameBoard = createGameBoard(builder);
         this.whitePieces = calculateActivePieces(this.gameBoard, Alliance.WHITE);
         this.blackPieces = calculateActivePieces(this.gameBoard, Alliance.BLACK);
+
+        this.enPassantPawn=builder.enPassantPawn;
 
         final Collection<Move> whiteStandardLegalMoves = calculateLegalMoves(this.whitePieces);
         final Collection<Move> blackStandardLegalMoves = calculateLegalMoves(this.blackPieces);
@@ -56,6 +60,10 @@ public class Board {
 
     public Player currentPlayer(){
         return this.currentPlayer;
+    }
+
+    public Pawn getEnPassantPawn(){
+        return this.enPassantPawn;
     }
 
     public Collection<Piece> getWhitePieces(){
