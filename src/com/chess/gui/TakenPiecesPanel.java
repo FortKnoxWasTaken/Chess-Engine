@@ -23,7 +23,7 @@ public class TakenPiecesPanel extends JPanel {
     private final JPanel southPanel;
 
     private static final Color PANEL_COLOR = Color.decode("0xFDF5E6");
-    private static final Dimension TAKEN_PIECES_DIMENSION = new Dimension(40,80);
+    private static final Dimension TAKEN_PIECES_DIMENSION = new Dimension(50,80);
     private static final EtchedBorder PANEL_BORDER = new EtchedBorder(EtchedBorder.RAISED);
 
     public TakenPiecesPanel(){
@@ -80,7 +80,7 @@ public class TakenPiecesPanel extends JPanel {
                 final BufferedImage image = ImageIO.read(new File("art/lichess/" +
                         takenPiece.getPieceAlliance().toString().substring(0,1) + takenPiece.toString() + ".png"));
                 final ImageIcon icon = new ImageIcon(image);
-                final JLabel imageLabel = new JLabel();//TODO complete this
+                final JLabel imageLabel = new JLabel(new ImageIcon(icon.getImage().getScaledInstance(icon.getIconWidth()/2, icon.getIconHeight()/2, Image.SCALE_SMOOTH)));//TODO complete this
                 this.southPanel.add(imageLabel);
 
             } catch (final IOException e) {
@@ -93,7 +93,7 @@ public class TakenPiecesPanel extends JPanel {
                 final BufferedImage image = ImageIO.read(new File("art/lichess/" +
                         takenPiece.getPieceAlliance().toString().substring(0,1) + takenPiece.toString() + ".png"));
                 final ImageIcon icon = new ImageIcon(image);
-                final JLabel imageLabel = new JLabel(); //TODO complete this
+                final JLabel imageLabel = new JLabel(new ImageIcon(icon.getImage().getScaledInstance(icon.getIconWidth()/2, icon.getIconHeight()/2, Image.SCALE_SMOOTH))); //TODO complete this
                 this.northPanel.add(imageLabel);
 
             } catch (final IOException e) {

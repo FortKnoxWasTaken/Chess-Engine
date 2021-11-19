@@ -44,11 +44,11 @@ public class Table {
     private Tile destinationTile;
     private Piece humanMovedPiece;
 
-    private final static Dimension OUTER_FRAME_DIMENSION = new Dimension(600,600);
+    private final static Dimension OUTER_FRAME_DIMENSION = new Dimension(650,600);
     private static final Dimension BOARD_PANEL_DIMENSION = new Dimension(400, 350);
     private static final Dimension TILE_PANEL_DIMENSION = new Dimension(10,10);
 
-    private static final String defaultPieceImagesPath = "art/holywarriors/";
+    private static final String defaultPieceImagesPath = "art/lichess/";
 
     private final Color lightTileColor = Color.decode("#FFFACD");
     private final Color darkTileColor = Color.decode("#593E1A");
@@ -315,8 +315,10 @@ public class Table {
                 try {
                     final BufferedImage image = ImageIO.read(new File(defaultPieceImagesPath +
                             board.getTile(this.tileId).getPiece().getPieceAlliance().toString().substring(0,1) +
-                            board.getTile(this.tileId).getPiece().toString() + ".gif"));
-                    add(new JLabel(new ImageIcon(image)));
+                            board.getTile(this.tileId).getPiece().toString() + ".png"));
+                    final ImageIcon icon = new ImageIcon(image);
+                    JLabel scaledImageLabel = new JLabel(new ImageIcon(icon.getImage().getScaledInstance(2*icon.getIconWidth()/3, 2*icon.getIconHeight()/3, Image.SCALE_SMOOTH)));
+                    add(scaledImageLabel);//new JLabel(new ImageIcon(image))
                 } catch (IOException e) {
                     e.printStackTrace();
                 }

@@ -40,8 +40,7 @@ public class King extends Piece{
                 }
 
                 final Tile candidateDestinationTile = board.getTile(candidateDestinationCoordinate);
-
-                if (!candidateDestinationTile.isTileOccupied()) {
+                if(this.isFirstMove())if (!candidateDestinationTile.isTileOccupied()) {
                     legalMoves.add(new MajorMove(board, this, candidateDestinationCoordinate));
                 } else {
                     final Piece pieceAtDestination = candidateDestinationTile.getPiece();
@@ -53,7 +52,6 @@ public class King extends Piece{
                 }
             }
         }
-
 
         return ImmutableList.copyOf(legalMoves);
     }

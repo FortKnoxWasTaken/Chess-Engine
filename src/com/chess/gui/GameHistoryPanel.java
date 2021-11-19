@@ -15,7 +15,7 @@ public class GameHistoryPanel extends JPanel {
 
     private final DataModel model;
     private JScrollPane scrollPane;
-    private static final Dimension HISTORY_PANEL_DIMENSION = new Dimension(100,400);
+    private static final Dimension HISTORY_PANEL_DIMENSION = new Dimension(80,400);
 
 
     GameHistoryPanel(){

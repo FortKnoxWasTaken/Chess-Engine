@@ -3,9 +3,15 @@
   <component name="ChangeListManager">
     <list default="true" id="21f7191c-aa89-4111-b204-dd2559aa87ba" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Chess-Engine.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Chess-Engine.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Chess-Engine/com/chess/engine/Alliance$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Chess-Engine/com/chess/engine/Alliance$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Chess-Engine/com/chess/engine/Alliance$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Chess-Engine/com/chess/engine/Alliance$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Chess-Engine/com/chess/engine/Alliance.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Chess-Engine/com/chess/engine/Alliance.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Chess-Engine/com/chess/engine/board/Move$AttackMove.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Chess-Engine/com/chess/engine/board/Move$AttackMove.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Chess-Engine/com/chess/engine/board/Move$CastleMove.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Chess-Engine/com/chess/engine/board/Move$CastleMove.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Chess-Engine/com/chess/engine/board/Move$KingSideCastleMove.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Chess-Engine/com/chess/engine/board/Move$KingSideCastleMove.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Chess-Engine/com/chess/engine/board/Move$MajorAttackMove.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Chess-Engine/com/chess/engine/board/Move$MajorAttackMove.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Chess-Engine/com/chess/engine/board/Move$MajorMove.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Chess-Engine/com/chess/engine/board/Move$MajorMove.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Chess-Engine/com/chess/engine/board/Move$MoveFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Chess-Engine/com/chess/engine/board/Move$MoveFactory.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Chess-Engine/com/chess/engine/board/Move$NullMove.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Chess-Engine/com/chess/engine/board/Move$NullMove.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Chess-Engine/com/chess/engine/board/Move$PawnAttackMove.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Chess-Engine/com/chess/engine/board/Move$PawnAttackMove.class" afterDir="false" />
@@ -13,15 +19,18 @@
       <change beforePath="$PROJECT_DIR$/out/production/Chess-Engine/com/chess/engine/board/Move$PawnJump.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Chess-Engine/com/chess/engine/board/Move$PawnJump.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Chess-Engine/com/chess/engine/board/Move$PawnMove.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Chess-Engine/com/chess/engine/board/Move$PawnMove.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Chess-Engine/com/chess/engine/board/Move$QueenSideCastleMove.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Chess-Engine/com/chess/engine/board/Move$QueenSideCastleMove.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Chess-Engine/com/chess/engine/board/Move.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Chess-Engine/com/chess/engine/board/Move.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Chess-Engine/com/chess/engine/pieces/King.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Chess-Engine/com/chess/engine/pieces/King.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Chess-Engine/com/chess/engine/pieces/Pawn.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Chess-Engine/com/chess/engine/pieces/Pawn.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Chess-Engine/com/chess/gui/TakenPiecesPanel.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Chess-Engine/com/chess/gui/TakenPiecesPanel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/chess/JChess.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/chess/JChess.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/chess/engine/Alliance.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/chess/engine/Alliance.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/chess/engine/board/Board.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/chess/engine/board/Board.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/chess/engine/board/Move.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/chess/engine/board/Move.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/chess/engine/pieces/Bishop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/chess/engine/pieces/Bishop.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/chess/engine/pieces/King.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/chess/engine/pieces/King.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/chess/engine/pieces/Knight.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/chess/engine/pieces/Knight.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/chess/engine/pieces/Pawn.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/chess/engine/pieces/Pawn.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/chess/engine/pieces/Queen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/chess/engine/pieces/Queen.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/chess/engine/pieces/Rook.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/chess/engine/pieces/Rook.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/chess/gui/GameHistoryPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/chess/gui/GameHistoryPanel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/chess/gui/Table.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/chess/gui/Table.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/chess/gui/TakenPiecesPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/chess/gui/TakenPiecesPanel.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,6 +41,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
+        <option value="JUnit4 Test Class" />
       </list>
     </option>
   </component>
@@ -52,20 +63,36 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
+    <property name="create.test.in.the.same.root" value="true" />
     <property name="last_opened_file_path" value="$USER_HOME$/Downloads/BlackWidow-Chess-master" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Anuj\Java Programs\Chess-Engine\src\com\chess" />
       <recent name="D:\Anuj\Java Programs\Chess-Engine" />
       <recent name="D:\Anuj\Java Programs\Chess-Engine\src" />
     </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com.chess" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.tests.chess.engine.board" />
+      <recent name="com.chess.engine.board" />
     </key>
   </component>
   <component name="RunManager">
@@ -116,7 +143,7 @@
       <workItem from="1637034681265" duration="5713000" />
       <workItem from="1637134246802" duration="171000" />
       <workItem from="1637208151660" duration="5694000" />
-      <workItem from="1637293339517" duration="6821000" />
+      <workItem from="1637293339517" duration="21278000" />
     </task>
     <servers />
   </component>
