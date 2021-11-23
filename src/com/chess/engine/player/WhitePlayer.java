@@ -81,4 +81,10 @@ public class WhitePlayer extends Player{
 
         return ImmutableList.copyOf(kingCastles);
     }
+
+    //Added
+    @Override
+    public String toString() {
+        return this.getAlliance().toString();
+    }
 }

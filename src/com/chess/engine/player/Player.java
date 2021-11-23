@@ -5,9 +5,11 @@ import com.chess.engine.board.Board;
 import com.chess.engine.board.Move;
 import com.chess.engine.pieces.King;
 import com.chess.engine.pieces.Piece;
+import com.chess.gui.Table;
 import com.google.common.collect.ImmutableList;
 import com.google.common.collect.Iterables;
 
+import javax.swing.*;
 import java.util.ArrayList;
 import java.util.Collection;
 import java.util.List;
@@ -56,7 +58,7 @@ public abstract class Player {
         throw new RuntimeException("Should not reach here! Not a valid board!!");
     }
 
-    public boolean isMoveLegal(Move move){
+    public boolean isMoveLegal(final Move move){
         return this.legalMoves.contains(move);
     }
 
@@ -72,6 +74,14 @@ public abstract class Player {
         return !this.isInCheck && !hasEscapeMoves();
     }
 
+    public boolean isKingSideCastleCapable() {
+        return this.playerKing.isKingSideCastleCapable();
+    }
+
+    public boolean isQueenSideCastleCapable() {
+        return this.playerKing.isQueenSideCastleCapable();
+    }
+
     protected boolean hasEscapeMoves() {
         for(final Move move: this.legalMoves){
             final MoveTransition transition = makeMove(move);
@@ -82,9 +92,9 @@ public abstract class Player {
         return false;
     }
 
-    //TODO implement these methods below
+//    TODO implement these methods below??
     public boolean isCastled(){
-        return false;
+        return this.playerKing.isCastled();
     }
 
     public MoveTransition makeMove(final Move move){
@@ -96,7 +106,7 @@ public abstract class Player {
         final Board transitionBoard = move.execute();
         // Transition board is the board after making the move and the current player now changes
         // Current player changes after making the move and if our move makes our king fall in
-        // check we cannot execute that move. Therefore current player after the move is the opponent.
+        // check we cannot execute that move. Therefore, current player after the move is the opponent.
         final Collection<Move> kingAttacks = Player.calculateAttacksOnTile(
                 transitionBoard.currentPlayer().getOpponent().getPlayerKing().getPiecePosition(),
                 transitionBoard.currentPlayer().getLegalMoves());
@@ -104,7 +114,7 @@ public abstract class Player {
         if(!kingAttacks.isEmpty()){
             return new MoveTransition(this.board, move, MoveStatus.LEAVES_PLAYER_IN_CHECK);
         }
-        // Else the move is legal and we make the move.
+        // Else the move is legal, and we make the move.
         return new MoveTransition(transitionBoard,move,MoveStatus.DONE);
     }
 

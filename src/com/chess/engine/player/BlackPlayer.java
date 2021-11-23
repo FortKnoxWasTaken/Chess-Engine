@@ -81,4 +81,10 @@ public class BlackPlayer extends Player{
 
         return ImmutableList.copyOf(kingCastles);
     }
+
+    //Added
+    @Override
+    public String toString() {
+        return this.getAlliance().toString();
+    }
 }
