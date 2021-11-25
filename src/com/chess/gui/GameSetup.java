@@ -104,7 +104,7 @@ class GameSetup extends JDialog {
         return spinner;
     }
 
-    int getSearchDepth() {
+    public int getSearchDepth() {
         return (Integer)this.searchDepthSpinner.getValue();
     }
 }

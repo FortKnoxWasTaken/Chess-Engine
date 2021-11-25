@@ -56,7 +56,7 @@ public class MiniMax implements MoveStrategy {
     }
 
     public int min(final Board board, final int depth){
-        if(depth==0 /* game over*/){
+        if(depth==0 || isEndGameScenario(board)){
             return this.boardEvaluator.evaluate(board, depth);
         }
         int lowestSeenValue = Integer.MAX_VALUE;
@@ -71,10 +71,6 @@ public class MiniMax implements MoveStrategy {
         }
 
         return lowestSeenValue;
-    }
-
-    private static boolean isEndGameScenario(final Board board) {
-        return board.currentPlayer().isInCheckMate() || board.currentPlayer().isInStaleMate();
     }
 
     public int max(final Board board, final int depth){
@@ -95,6 +91,7 @@ public class MiniMax implements MoveStrategy {
         return highestSeenValue;
     }
 
-
-
+    private static boolean isEndGameScenario(final Board board) {
+        return board.currentPlayer().isInCheckMate() || board.currentPlayer().isInStaleMate();
+    }
 }
